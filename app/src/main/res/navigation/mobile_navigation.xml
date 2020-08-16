@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.tae.mycafe.ui.home.HomeFragment"
+        android:label="홈"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_nearby"
+        android:name="com.tae.mycafe.ui.serch.NearbyFragment"
+        android:label="주변카페"
+        tools:layout="@layout/fragment_nearby" />
+
+    <fragment
+        android:id="@+id/navigation_region"
+        android:name="com.tae.mycafe.ui.serch.RegionFragment"
+        android:label="지역카페"
+        tools:layout="@layout/fragment_region" />
+
+    <fragment
+        android:id="@+id/navigation_favorite"
+        android:name="com.tae.mycafe.ui.favorite.FavoriteFragment"
+        android:label="찜 목록"
+        tools:layout="@layout/fragment_favorite" />
+</navigation>

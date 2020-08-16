@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyCafe</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="google_maps_key">AIzaSyASEkAIx20DKeEh-PCSn3LljnUfGgU7-Wo</string>
+</resources>

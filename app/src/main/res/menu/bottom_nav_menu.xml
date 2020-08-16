@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/navigation_nearby"
+        android:icon="@drawable/ic_local_cafe_black_24dp"
+        android:title="주변카페" />
+
+    <item
+        android:id="@+id/navigation_region"
+        android:icon="@drawable/ic_pin_drop_black_24dp"
+        android:title="지역별 카페" />
+
+    <item
+        android:id="@+id/navigation_favorite"
+        android:icon="@drawable/ic_favorite_border_black_24dp"
+        android:title="찜 목록" />
+
+
+
+</menu>
